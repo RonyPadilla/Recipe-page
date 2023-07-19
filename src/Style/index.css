@@ -25,12 +25,11 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  justify-content: center;
-  align-items: center;
+  margin-left: 15vw;
+  margin-right: 15vw;
 }
 
 h1 {
@@ -55,6 +54,15 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+.footer{
+  position: absolute;
+    bottom: 0; /* Fija el elemento al borde inferior de la ventana */
+    width: 100%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
 }
 
 @media (prefers-color-scheme: light) {
