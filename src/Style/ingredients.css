@@ -1,5 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 .all{
-    display: flex;
-    justify-content:flex-start;
 
+}
+
+.preparation-information{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.icon-div{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.icon{
+    margin-right: 1vw;
+}
+
+.icon-content{
+    margin-top: -20px;
+}
+
+.icon-h3{
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+.ingredients{
+    width: 40vw;
+}
+
+.h2-ingredients{
+    font-family: Playfair Display;
+    color: #333333;
+}
+
+.p-ingredients{
+    font-family: Playfair Display;
+    font-style: italic;
+    color: grey;
+}
+
+label{
+    font-size: 16px;
+    font-family: Montserrat;
+    color: gray;
+}
+strong{
+    color: #333;
+    font-weight: 700;
 }

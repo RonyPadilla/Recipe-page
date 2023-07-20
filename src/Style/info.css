@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap");
+
+.title {
+  font-size: 48px;
+  font-family: Playfair Display;
+  color: black;
+}
+
+.paragraph-div {
+  width: 30.8vw;
+  margin-left: 2vw;
+  margin-top: -2vh;
+  margin-bottom: 5vh;
+}
+
+.paragraph-cake {
+  font-size: 18px;
+  color: #4f4f4f;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.img-cake {
+  width: 70vw;
+  height: 30vw;
+}

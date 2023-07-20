@@ -1,12 +1,13 @@
-import '../Style/ingredients.css'
+import "../Style/ingredients.css";
 
 function Ingredients() {
   return (
     <>
       <section className="all">
         <section className="preparation-information">
-          <div>
+          <div className="icon-div">
             <svg
+              className="icon"
               xmlns="http://www.w3.org/2000/svg"
               width="34"
               height="34"
@@ -25,12 +26,15 @@ function Ingredients() {
                 </clipPath>
               </defs>
             </svg>
-            <p>Yields</p>
-            <h3>12 servings</h3>
+            <div className="icon-content">
+              <p className="icon-p">Yields</p>
+              <h3 className="icon-h3">12 servings</h3>
+            </div>
           </div>
-          <div>
-            <div>
+          <div >
+            <div className="icon-div">
               <svg
+                className="icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="29"
                 height="27"
@@ -42,13 +46,14 @@ function Ingredients() {
                   fill="#4F4F4F"
                 />
               </svg>
-              <div>
+              <div className="icon-content">
                 <p>Prep TIme</p>
-                <h3>45 minutes</h3>
+                <h3 className="icon-h3">45 minutes</h3>
               </div>
             </div>
-            <div>
+            <div className="icon-div">
               <svg
+                className="icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="29"
                 height="27"
@@ -60,13 +65,14 @@ function Ingredients() {
                   fill="#4F4F4F"
                 />
               </svg>
-              <div>
+              <div className="icon-content">
                 <p>Cook Time</p>
-                <h3>1 hour</h3>
+                <h3 className="icon-h3">1 hour</h3>
               </div>
             </div>
-            <div>
+            <div className="icon-div">
               <svg
+                className="icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="29"
                 height="27"
@@ -78,21 +84,21 @@ function Ingredients() {
                   fill="#4F4F4F"
                 />
               </svg>
-              <div>
+              <div className="icon-content">
                 <p>Total Time</p>
-                <h3>7,75 hours</h3>
+                <h3 className="icon-h3">7,75 hours</h3>
               </div>
             </div>
           </div>
         </section>
 
         <section className="ingredients">
-          <h2>Ingredients</h2>
+          <h2 className="h2-ingredients">Ingredients</h2>
           <form action="#">
-            <p>Graham Cracker Crust</p>
+            <p className="p-ingredients">Graham Cracker Crust</p>
             <input type="checkbox" className="checkbox" />
             <label htmlFor="#">
-              1 and 1/2 cups (150g) <strong>graham cracker crumbs</strong>{" "}
+              1 and 1/2 cups (150g) <strong>graham cracker crumbs</strong>
               (about 10 full sheet graham crackers)
             </label>
             <br />
@@ -106,7 +112,7 @@ function Ingredients() {
               1/4 cup (50g) <strong>granulated sugar</strong>
             </label>
 
-            <p>Cheesecake</p>
+            <p className="p-ingredients">Cheesecake</p>
             <input type="checkbox" className="checkbox" />
             <label htmlFor="#">
               four 8-ounce blocks (904g) full-fat <strong>cream cheese</strong>,
@@ -142,12 +148,12 @@ function Ingredients() {
             <br />
             <input type="checkbox" className="checkbox" />
             <label htmlFor="#">
-              topping suggestions:{" "}
+              topping suggestions:
               <i>
                 salted caramel, lemon curd, strawberry topping, chocolate
                 ganache, red wine chocolate ganache, fresh fruit, whipped cream,
                 or raspberry sauce
-              </i>{" "}
+              </i>
               (recipe in notes)
             </label>
           </form>

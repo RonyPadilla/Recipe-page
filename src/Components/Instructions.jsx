@@ -1,12 +1,14 @@
+import '../Style/instructions.css'
+
 function Instructions() {
   return (
     <>
-      <h2>Instructions</h2>
-      <section>
-        <div>
+      <h2 className='h2-instruction'>Instructions</h2>
+      <section className='section-instructions' >
+        <div className='div-num'>
           <h2>1</h2>
         </div>
-        <div>
+        <div className='p-instructions'>
           <p>
             Adjust the oven rack to the lower-middle position and preheat oven
             to 350°F (177°C).
@@ -14,11 +16,11 @@ function Instructions() {
         </div>
       </section>
 
-      <section>
-        <div>
+      <section className='section-instructions'>
+        <div className='div-num'>
           <h2>2</h2>
         </div>
-        <div>
+        <div className='p-instructions'>
           <p>
             <strong>Make the crust:</strong> Using a food processor, pulse the
             graham crackers into crumbs. Pour into a medium bowl and stir in
@@ -35,11 +37,11 @@ function Instructions() {
         </div>
       </section>
 
-      <section>
-        <div>
+      <section className='section-instructions'>
+        <div className='div-num'>
           <h2>3</h2>
         </div>
-        <div>
+        <div className='p-instructions'>
           <p>
             <strong>Make the filling:</strong> Using a handheld or stand mixer
             fitted with a paddle attachment, beat the cream cheese and
@@ -55,11 +57,11 @@ function Instructions() {
         </div>
       </section>
 
-      <section>
-        <div>
+      <section className='section-instructions'>
+        <div className='div-num'>
           <h2>4</h2>
         </div>
-        <div>
+        <div className='p-instructions'>
           <p>
             <strong>Prepare the simple water bath (see note)</strong> Boil a pot
             of water. You need 1 inch of water in your roasting pan for the
@@ -75,11 +77,11 @@ function Instructions() {
         </div>
       </section>
 
-      <section>
-        <div>
+      <section className='section-instructions'>
+        <div className='div-num'>
           <h2>5</h2>
         </div>
-        <div>
+        <div className='p-instructions'>
           <p>
             Bake cheesecake for 55-70 minutes or until the center is almost set.
             When it’s done, the center of the cheesecake will slightly wobble if
@@ -92,11 +94,11 @@ function Instructions() {
         </div>
       </section>
 
-      <section>
-        <div>
+      <section className='section-instructions'>
+        <div className='div-num'>
           <h2>6</h2>
         </div>
-        <div>
+        <div className='p-instructions'>
           <p>
             Use a knife to loosen the chilled cheesecake from the rim of the
             springform pan, then remove the rim. Using a clean sharp knife, cut
@@ -106,11 +108,11 @@ function Instructions() {
         </div>
       </section>
 
-      <section>
-        <div>
+      <section className='section-instructions'>
+        <div className='div-num'>
           <h2>7</h2>
         </div>
-        <div>
+        <div className='p-instructions'>
           <p>
             Serve cheesecake with desired toppings. Cover and store leftover
             cheesecake in the refrigerator for up to 5 days.

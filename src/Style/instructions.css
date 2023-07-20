@@ -1,0 +1,29 @@
+.section-instructions {
+  display: flex;
+  margin-bottom: 3vh;
+}
+
+.h2-instruction{
+    font-family: Playfair Display;
+    color: #333;
+    font-weight: 700;
+}
+
+.div-num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2994a;
+  font-family: Playfair Display;
+  border-radius: 6px;
+  width: 36px;
+  height: 36px;
+  color: white;
+}
+
+.p-instructions {
+  width: 38vw;
+  margin-top: -2vh;
+  margin-left: 1vw;
+  font-weight: 400;
+}
