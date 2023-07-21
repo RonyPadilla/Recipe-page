@@ -31,7 +31,7 @@ function Ingredients() {
               <h3 className="icon-h3">12 servings</h3>
             </div>
           </div>
-          <div >
+          <div className="reloj-div">
             <div className="icon-div">
               <svg
                 className="icon"
@@ -97,57 +97,57 @@ function Ingredients() {
           <form action="#">
             <p className="p-ingredients">Graham Cracker Crust</p>
             <input type="checkbox" className="checkbox" />
-            <label htmlFor="#">
+            <label className="label-ingredients"  htmlFor="#">
               1 and 1/2 cups (150g) <strong>graham cracker crumbs</strong>
               (about 10 full sheet graham crackers)
             </label>
             <br />
             <input type="checkbox" className="checkbox" />
-            <label htmlFor="#">
+            <label className="label-ingredients" htmlFor="#">
               5 Tablespoons (70g) <strong>unsalted butter</strong>, melted
             </label>
             <br />
             <input type="checkbox" className="checkbox" />
-            <label htmlFor="#">
+            <label className="label-ingredients" htmlFor="#">
               1/4 cup (50g) <strong>granulated sugar</strong>
             </label>
 
             <p className="p-ingredients">Cheesecake</p>
             <input type="checkbox" className="checkbox" />
-            <label htmlFor="#">
+            <label className="label-ingredients" htmlFor="#">
               four 8-ounce blocks (904g) full-fat <strong>cream cheese</strong>,
               softened to room temperature
             </label>
             <br />
             <input type="checkbox" className="checkbox" />
-            <label htmlFor="#">
+            <label className="label-ingredients" htmlFor="#">
               1 cup (200g) <strong>granulated sugar</strong>
             </label>
             <br />
             <input type="checkbox" className="checkbox" />
-            <label htmlFor="#">
+            <label className="label-ingredients" htmlFor="#">
               1 cup (240g) full-fat <strong>sour cream</strong>, at room
               temperature
             </label>
             <br />
             <input type="checkbox" className="checkbox" />
-            <label htmlFor="#">
+            <label className="label-ingredients" htmlFor="#">
               1 teaspoon <strong>pure vanilla extract</strong>
             </label>
             <br />
             <input type="checkbox" className="checkbox" />
-            <label htmlFor="#">
+            <label className="label-ingredients" htmlFor="#">
               2 teaspoons <strong>fresh lemon juice</strong> (optional, but
               recommended)
             </label>
             <br />
             <input type="checkbox" className="checkbox" />
-            <label htmlFor="#">
+            <label className="label-ingredients" htmlFor="#">
               3 large <strong>eggs</strong>, at room temperature
             </label>
             <br />
             <input type="checkbox" className="checkbox" />
-            <label htmlFor="#">
+            <label className="label-ingredients" htmlFor="#">
               topping suggestions:
               <i>
                 salted caramel, lemon curd, strawberry topping, chocolate

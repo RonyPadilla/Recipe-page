@@ -11,6 +11,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Info />
     <Ingredients />
     <Instructions />
-    <Footer />
+    <div className="credits">
+      <Footer />
+    </div>  
   </>
 );

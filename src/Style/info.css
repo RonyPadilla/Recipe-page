@@ -7,10 +7,21 @@
 }
 
 .paragraph-div {
-  width: 30.8vw;
+  display: flex;
+  width: 592px;  
   margin-left: 2vw;
-  margin-top: -2vh;
-  margin-bottom: 5vh;
+  margin-top: -4vh;
+  margin-bottom: 4vh;
+}
+
+.svg-paragraph{
+  margin-top: 2vh;
+  margin-right: 0.5vw;
+}
+
+.svg-img{
+  width: 1.3vw;
+  height: 1.3vh;
 }
 
 .paragraph-cake {
@@ -24,4 +35,45 @@
 .img-cake {
   width: 70vw;
   height: 30vw;
+}
+
+@media (max-width: 700px) {
+
+.title {
+  font-size: 4vw;
+  font-family: Playfair Display;
+  color: black;
+}
+
+.paragraph-div {
+  display: flex;
+  width: 592px;  
+  margin-left: 2vw;
+  margin-top: -4vh;
+  margin-bottom: 4vh;
+}
+
+.svg-paragraph{
+  margin-top: 2.5vh;
+  margin-right: 1vw;
+}
+
+.svg-img{
+  width: 2.3vw;
+  height: 2.3vh;
+}
+
+.paragraph-cake {
+  font-size: 18px;
+  color: #4f4f4f;
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.img-cake {
+  width: 35rem;
+height: 20rem;
+}
+
 }

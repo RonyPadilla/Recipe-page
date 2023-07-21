@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 .all{
-
+    margin-top: 6vh;
 }
 
 .preparation-information{
     display: flex;
     flex-direction: column;
     float: right;
+    margin-top: 8vh;
 }
 
 .icon-div{
@@ -43,10 +44,12 @@
     color: grey;
 }
 
-label{
+.label-ingredients{
     font-size: 16px;
     font-family: Montserrat;
     color: gray;
+    margin-left: 15px;
+    width: 38vw;
 }
 strong{
     color: #333;
