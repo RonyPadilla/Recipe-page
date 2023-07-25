@@ -47,7 +47,7 @@ function Ingredients() {
                 />
               </svg>
               <div className="icon-content">
-                <p>Prep TIme</p>
+                <p className="icon-p">Prep TIme</p>
                 <h3 className="icon-h3">45 minutes</h3>
               </div>
             </div>
@@ -66,7 +66,7 @@ function Ingredients() {
                 />
               </svg>
               <div className="icon-content">
-                <p>Cook Time</p>
+                <p className="icon-p">Cook Time</p>
                 <h3 className="icon-h3">1 hour</h3>
               </div>
             </div>
@@ -85,7 +85,7 @@ function Ingredients() {
                 />
               </svg>
               <div className="icon-content">
-                <p>Total Time</p>
+                <p className="icon-p">Total Time</p>
                 <h3 className="icon-h3">7,75 hours</h3>
               </div>
             </div>

@@ -40,21 +40,21 @@
 @media (max-width: 700px) {
 
 .title {
-  font-size: 4vw;
+  font-size: 6vw;
   font-family: Playfair Display;
   color: black;
 }
 
 .paragraph-div {
   display: flex;
-  width: 592px;  
-  margin-left: 2vw;
-  margin-top: -4vh;
-  margin-bottom: 4vh;
+  width: 96vw;  
+  margin-left: 0vw;
+  margin-top: -3vh;
+  margin-bottom: 1vh;
 }
 
 .svg-paragraph{
-  margin-top: 2.5vh;
+  margin-top: 1.5vh;
   margin-right: 1vw;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .paragraph-cake {
-  font-size: 18px;
+  font-size: 16px;
   color: #4f4f4f;
   font-family: Montserrat;
   font-style: italic;
@@ -72,8 +72,8 @@
 }
 
 .img-cake {
-  width: 35rem;
-height: 20rem;
+  width: 96vw;
+height: 13rem;
 }
 
 }

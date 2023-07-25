@@ -55,3 +55,71 @@ strong{
     color: #333;
     font-weight: 700;
 }
+
+@media (max-width: 700px) {
+    .all{
+        margin-top: 6vh;
+    }
+    
+    .preparation-information{
+        display: flex;
+        flex-direction: none;
+        float: none;
+        margin-top: 5vh;
+    }
+    
+    .icon-div{
+        display: flex;
+        margin-bottom: 20px;
+        margin-right: 15vw;
+    }
+
+    .reloj-div{
+        display: flex;
+    }
+    
+    .icon{
+        margin-right: 1vw;
+        width: 6vw;
+        height: 6vw;
+    }
+    
+    .icon-content{
+        margin-top: -20px;
+    }
+    .icon-p{
+        font-size: 3vw;
+    }
+    
+    .icon-h3{
+        font-size: 2.5vw;
+        margin-top: -20px;
+    }
+    
+    .ingredients{
+        width: 96vw;
+    }
+    
+    .h2-ingredients{
+        font-family: Playfair Display;
+        color: #333333;
+    }
+    
+    .p-ingredients{
+        font-family: Playfair Display;
+        font-style: italic;
+        color: grey;
+    }
+    
+    .label-ingredients{
+        font-size: 16px;
+        font-family: Montserrat;
+        color: gray;
+        margin-left: 15px;
+        width: 100vw;
+    }
+    strong{
+        color: #333;
+        font-weight: 700;
+    }
+}

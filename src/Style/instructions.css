@@ -27,3 +27,13 @@
   margin-left: 1vw;
   font-weight: 400;
 }
+
+@media (max-width: 700px) {
+
+  .p-instructions {
+    width: 90vw;
+    margin-top: -2vh;
+    margin-left: 1vw;
+    font-weight: 400;
+  }
+}
