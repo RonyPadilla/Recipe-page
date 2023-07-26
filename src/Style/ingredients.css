@@ -1,125 +1,137 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-.all{
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+.all {
+  margin-top: 6vh;
+}
+
+.preparation-information {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-top: 8vh;
+}
+
+.icon-div {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.icon {
+  margin-right: 1vw;
+}
+
+.icon-content {
+  margin-top: -20px;
+}
+
+.icon-h3 {
+  font-size: 15px;
+  margin-top: -20px;
+  color: #333;
+}
+
+.ingredients {
+  width: 40vw;
+}
+
+.h2-ingredients {
+  font-family: Playfair Display;
+  color: #333333;
+}
+
+.p-ingredients {
+  font-family: Playfair Display;
+  font-style: italic;
+  color: grey;
+}
+
+.label-ingredients {
+  font-size: 16px;
+  font-family: Montserrat;
+  color: gray;
+  margin-left: 15px;
+  width: 38vw;
+}
+
+.checkbox {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+strong {
+  color: #333;
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .all {
     margin-top: 6vh;
-}
+  }
 
-.preparation-information{
+  .preparation-information {
     display: flex;
-    flex-direction: column;
-    float: right;
-    margin-top: 8vh;
-}
+    flex-direction: none;
+    float: none;
+    margin-top: 5vh;
+  }
 
-.icon-div{
+  .icon-div {
     display: flex;
+    width: 80%;
     margin-bottom: 20px;
-}
+    margin-right: 15vw;
+  }
 
-.icon{
+  .reloj-div {
+    display: flex;
+  }
+
+  .icon {
     margin-right: 1vw;
-}
+    width: 5vw;
+    height: 5vw;
+  }
 
-.icon-content{
-    margin-top: -20px;
-}
+  .icon-content {
+    margin-top: -10px;
+  }
+  .icon-p {
+    font-size: 2vw;
+  }
 
-.icon-h3{
-    font-size: 15px;
-    margin-top: -20px;
-}
+  .icon-h3 {
+    font-size: 1.5vw;
+    margin-top: -10px;
+  }
 
-.ingredients{
-    width: 40vw;
-}
+  .ingredients {
+    width: 96vw;
+  }
 
-.h2-ingredients{
+  .h2-ingredients {
     font-family: Playfair Display;
     color: #333333;
-}
+  }
 
-.p-ingredients{
+  .p-ingredients {
     font-family: Playfair Display;
     font-style: italic;
     color: grey;
-}
+  }
 
-.label-ingredients{
+  .label-ingredients {
     font-size: 16px;
     font-family: Montserrat;
     color: gray;
     margin-left: 15px;
-    width: 38vw;
-}
-strong{
+    width: 100vw;
+  }
+  .checkbox {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+  strong {
     color: #333;
     font-weight: 700;
-}
-
-@media (max-width: 700px) {
-    .all{
-        margin-top: 6vh;
-    }
-    
-    .preparation-information{
-        display: flex;
-        flex-direction: none;
-        float: none;
-        margin-top: 5vh;
-    }
-    
-    .icon-div{
-        display: flex;
-        margin-bottom: 20px;
-        margin-right: 15vw;
-    }
-
-    .reloj-div{
-        display: flex;
-    }
-    
-    .icon{
-        margin-right: 1vw;
-        width: 6vw;
-        height: 6vw;
-    }
-    
-    .icon-content{
-        margin-top: -20px;
-    }
-    .icon-p{
-        font-size: 3vw;
-    }
-    
-    .icon-h3{
-        font-size: 2.5vw;
-        margin-top: -20px;
-    }
-    
-    .ingredients{
-        width: 96vw;
-    }
-    
-    .h2-ingredients{
-        font-family: Playfair Display;
-        color: #333333;
-    }
-    
-    .p-ingredients{
-        font-family: Playfair Display;
-        font-style: italic;
-        color: grey;
-    }
-    
-    .label-ingredients{
-        font-size: 16px;
-        font-family: Montserrat;
-        color: gray;
-        margin-left: 15px;
-        width: 100vw;
-    }
-    strong{
-        color: #333;
-        font-weight: 700;
-    }
+  }
 }

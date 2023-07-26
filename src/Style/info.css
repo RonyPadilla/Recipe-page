@@ -8,7 +8,6 @@
 
 .paragraph-div {
   display: flex;
-  width: 592px;  
   margin-left: 2vw;
   margin-top: -4vh;
   margin-bottom: 4vh;
@@ -26,6 +25,8 @@
 
 .paragraph-cake {
   font-size: 18px;
+  width: 47rem;  
+
   color: #4f4f4f;
   font-family: Montserrat;
   font-style: italic;
